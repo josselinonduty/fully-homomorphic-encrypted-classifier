@@ -41,6 +41,11 @@ If the `openfhe` directory is missing or empty, clone it from the official repos
 
 ```bash
 git clone https://github.com/openfheorg/openfhe-development.git openfhe
+
+# https://github.com/openfheorg/openfhe-development/releases/tag/v1.0.4
+cd openfhe
+git checkout v1.0.4
+cd ..
 ```
 
 #### Build and Install
