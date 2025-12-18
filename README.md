@@ -10,7 +10,6 @@ Ensure you have the following installed on your system:
 - **CMake** (version 3.5.1 or higher)
 - **C++ Compiler** (g++ or clang)
 - **Python 3** (for plain implementation comparisons)
-  - Required Python packages: `torch`, `torchvision`, `PIL`, `numpy`
 
 ## Installation & Setup
 
@@ -130,6 +129,9 @@ You can customize the execution with the following arguments:
   ```
 
   _This creates a `keys_exp1` folder in the project root._
+
+  > Note:
+  > Generating keys may take several minutes and requires significant memory (up to 32 GB RAM and/or swap, and an equal amount of disk space). The process will crash if insufficient memory, swap or disk space is available.
 
 - **Load Keys**: Use existing keys to run inference.
 
