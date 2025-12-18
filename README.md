@@ -166,8 +166,3 @@ The output is a vector of 10 scores. The index of the maximum value corresponds 
 | 7     | Horse      |
 | 8     | Ship       |
 | 9     | Truck      |
-
-## Troubleshooting
-
-- **OpenFHE not found**: Ensure you ran `make install` for OpenFHE or provided the correct `CMAKE_PREFIX_PATH`.
-- **DropLastElement Error**: If you encounter this error with newer OpenFHE versions, consider increasing the ring dimension or adjusting security parameters as noted in the LowMemoryFHEResNet20 documentation.
